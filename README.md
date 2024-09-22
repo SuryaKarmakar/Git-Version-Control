@@ -22,7 +22,7 @@ git add . // to add all files
 git add file1 file2
 ```
 
-- to see status.
+- to see status. you can see all the untracted and staging files.
 ```
 git status
 ```
@@ -49,4 +49,43 @@ git init
 git remote add origin https://git-repo-link.com
 ```
 
+- to compare old snapshot to new changes.
+```
+git diff
+```
+
+- to see history. its shows commit msg, date and id.
+```
+git log
+git log --oneline
+```
+
+- to see specifc commit changes.
+```
+git show commit_id
+```
+
+- to search in your history log.
+```
+git log --grep='example'
+```
+
+- rename files using git.
+```
+git mv old_file_name new_file_name
+```
+
+- track empty folder on git.
+```
+just create a .gitkeep file inside a empty folder.
+```
+
+- restore files staging area to working area. if we already added that file it will moved from staging to working.
+- NOTE: if your file is already on working/untracked area then git restore command can remove all your changes on that file.
+```
+git restore --staged file_name
+git restore .
+```
+
+- 
 
