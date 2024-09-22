@@ -87,5 +87,16 @@ git restore --staged file_name
 git restore .
 ```
 
-- 
+- checkout a specific commit stage.
+- NOTE - its not remove the letest code, its just show the preview of prevouse commit state.
+```
+git checkout commit_id
+```
+
+- revert/roll bak to an old state. this can roll back to a previsue commit state.
+```
+git revert commit_id
+```
+
+
 
